@@ -40,3 +40,5 @@ target/
 *.tar.gz
 *.rar
 *.iml
+
+settings.gradle
