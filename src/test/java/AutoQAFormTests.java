@@ -11,7 +11,7 @@ import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
 
-public class SearchTests {
+public class AutoQAFormTests {
 
     @BeforeAll
     static void setUp(){
@@ -21,7 +21,7 @@ public class SearchTests {
     }
 
     @Test
-    void qr_code_creation_test() {
+    void formTest() {
 //      Fill the form by test data
         open("/automation-practice-form");
         $("#close-fixedban").click();
